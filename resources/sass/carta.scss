@@ -1,0 +1,98 @@
+.list-carta{
+    margin-top:80px;
+}
+
+.list-plate-carta{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#before-footer{
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#before-footer img{
+    object-fit: cover;
+    width: 100%;
+}
+
+input[type='hidden']{
+    display: none;
+}
+
+@media (min-width: 992px) {
+    #before-footer{
+        min-height: 300px;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #before-footer h2{
+        color:white;
+        text-transform: capitalize;
+        //font-weight: bold!important;
+        font-family: 'Changa One', cursive;
+        font-size: 50px;
+        letter-spacing: 3px;
+    }
+    .div-before-footer{
+        display: flex;
+        color:white;
+        font-size: 20px;
+    }
+    .div-before-footer button{
+        border-radius: 40px;
+        background-color: transparent;
+        border: 1px solid white;
+        padding: 3px 15px;
+    }
+    .div-before-footer a{
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+        //
+        border: 1px solid white;
+        padding: 0 50px;
+        align-items: center;
+        border-radius: 40px;
+        display: inherit;
+    }
+    .div-before-footer a:hover{
+        background-color: #FFBF00;
+        animation-delay: 0.5s;
+    }
+
+    .div-before-footer p{
+        margin-left: 160px;
+        margin-right: 40px;
+        display: flex;
+        position: relative;
+        align-items: flex-end;
+    }
+
+    .div-before-footer p::before{
+        content:'';
+        position: absolute;
+        width: 60px;
+        height: 3px;
+        background-color:#FFBF00;
+        font-weight: bold!important;
+        top: 1.7em;
+    }
+    
+    .div-before-footer p::before{
+        left: -80px;
+    }
+    
+    .card a,.card-body a{
+        text-decoration: none;
+        color:#a0a0a0;
+    }
+}

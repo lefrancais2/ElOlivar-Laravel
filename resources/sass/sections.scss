@@ -1,0 +1,54 @@
+.presentacion{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    //display: flex;
+    background-color: white;
+}
+
+.presentacion figure{
+    padding: 10px;
+}
+
+@media (min-width: 992px) {
+    .presentacion{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .presentacion figure img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .presentacion{
+        text-align: center;
+        display: inline;
+    }
+}
+
+@media (max-width: 560px) {
+    .presentacion figure img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .presentacion{
+        display: block;
+    }
+}
+
+.last-area-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.float-icons{
+    text-align: right;
+}

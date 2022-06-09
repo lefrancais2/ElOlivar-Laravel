@@ -1,0 +1,24 @@
+.contact-button{
+    border-radius: 40px;
+    padding: 10px 40px;
+    background-color: #FFD65C;
+    color: white;
+    border-color: transparent;
+}
+
+.contact-button:hover{
+    background-color: #CC9900;
+    border-color: transparent;
+    color: white;
+}
+
+.btn-float-right{
+    text-align:right;
+}
+
+.input-number-amount{
+    width: 40px;
+}
+.btn-accept-amount{
+    background-color: rgb(96, 124, 248);
+}
